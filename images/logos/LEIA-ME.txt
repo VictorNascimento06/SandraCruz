@@ -1,0 +1,40 @@
+═══════════════════════════════════════════════════════
+  📁 PASTA DE LOGOS DAS OPERADORAS
+═══════════════════════════════════════════════════════
+
+📋 INSTRUÇÕES:
+
+Coloque os logos das operadoras NESTA pasta com os seguintes nomes:
+
+✅ Arquivos necessários:
+   • amil.png
+   • sulamerica.png
+   • bradesco.png
+   • unimed.png
+   • notredame.png
+   • hapvida.png
+   • intermedica.png
+   • medsenior.png
+   • preventsenior.png
+   • select.png
+
+📐 ESPECIFICAÇÕES:
+
+   Formato: PNG (com fundo transparente)
+   Tamanho: Entre 200x80px e 300x120px
+   Peso: Máximo 50KB por arquivo
+   Qualidade: Mínimo 72dpi
+
+🔍 ONDE CONSEGUIR OS LOGOS:
+
+   1. Sites oficiais das operadoras
+   2. Google: "logo [nome operadora] png transparente"
+   3. https://brandfetch.com/
+   4. Solicitar aos representantes das operadoras
+
+💡 DICA:
+
+   Se não tiver o logo de alguma operadora, não tem problema!
+   O site vai mostrar automaticamente o nome da operadora no lugar.
+
+═══════════════════════════════════════════════════════
