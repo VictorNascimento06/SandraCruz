@@ -223,6 +223,7 @@ body {
   min-height: 120px;
   border: 2px solid #e2e8f0;
   position: relative;
+  overflow: hidden;
 }
 
 .operadora-logo:hover {
@@ -231,21 +232,100 @@ body {
   border-color: var(--color-primary);
 }
 
+/* Logo inicialmente escondida */
 .operadora-logo img {
-  max-width: 100%;
-  max-height: 60px;
-  width: auto;
-  height: auto;
+  width: 90%;
+  height: 70px;
   object-fit: contain;
-  margin-bottom: 0.5rem;
-  display: block;
+  position: absolute;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all 0.4s ease;
+  pointer-events: none;
 }
 
+/* Mostrar logo no hover */
+.operadora-logo:hover img {
+  opacity: 1;
+  transform: scale(1);
+  position: relative;
+}
+
+/* Nome visível por padrão */
 .operadora-logo span {
   color: var(--color-primary);
   font-weight: 700;
   font-size: 0.85rem;
   display: block;
+  transition: all 0.4s ease;
+}
+
+/* Esconder nome no hover */
+.operadora-logo:hover span {
+  opacity: 0;
+  transform: scale(0.5);
+  position: absolute;
+}
+
+/* Ajustes individuais por operadora */
+.logo-amil img {
+  width: 90%;
+  height: 70px;
+}
+
+.logo-sulamerica img {
+  width: 100%;
+  height: 140px;
+}
+
+.logo-unimed img {
+  width: 90%;
+  height: 200px;
+}
+
+.logo-notredame img {
+  width: 90%;
+  height: 70px;
+}
+
+.logo-medsenior img {
+  width: 90%;
+  height: 140px;
+}
+
+.logo-samoc img {
+  width: 90%;
+  height: 70px;
+}
+
+.logo-assim img {
+  width: 90%;
+  height: 150px;
+}
+
+.logo-novasaude img {
+  width: 90%;
+  height: 200px;
+}
+
+.logo-ampla img {
+  width: 90%;
+  height: 70px;
+}
+
+.logo-leve img {
+  width: 90%;
+  height: 70px;
+}
+
+.logo-hapvida img {
+  width: 90%;
+  height: 70px;
+}
+
+.logo-select img {
+  width: 90%;
+  height: 100px;
 }
 
 /* Responsive */
