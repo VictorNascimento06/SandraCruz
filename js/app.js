@@ -1,3 +1,6 @@
+// Aguarda o DOM carregar completamente
+document.addEventListener('DOMContentLoaded', function() {
+
 // Smooth Scroll para links de navegação
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
@@ -117,16 +120,6 @@ animateElements.forEach(el => {
   observer.observe(el);
 });
 
-// Header fixo - adiciona sombra ao scroll
-window.addEventListener('scroll', function() {
-  const header = document.querySelector('header');
-  if (window.scrollY > 100) {
-    header.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.15)';
-  } else {
-    header.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)';
-  }
-});
-
 // Validação de email
 function validateEmail(email) {
   const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -148,3 +141,5 @@ emailInputs.forEach(input => {
 
 // Log para debug
 console.log('Site Sandra da Cruz - Scripts carregados com sucesso!');
+
+}); // Fim do DOMContentLoaded
